@@ -1,0 +1,8 @@
+.div1 {
+    float:left;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(221, 6, 6);
+    color: white;
+}
