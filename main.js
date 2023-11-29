@@ -8,7 +8,7 @@ var Madiv= document.getElementById("Methode3")
 Madiv.addEventListener("mouseover", UneProcedureQuiSurvole);
 
 var Madiv= document.getElementById("Methode4")
-Madiv.addEventListener("mouseover", UneProcedureQuiEcrit);
+Madiv.addEventListener("keydown", UneProcedureQuiEcrit);
 
 function UneProcedureQuiEcrit(evenment) {
     evenment.target.innerHTML= "on a appuyé sur : "+evenment.key;
